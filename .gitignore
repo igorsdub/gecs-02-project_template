@@ -1,8 +1,10 @@
 # Data
 /data/processed/*
+!/data/processed/.gitkeep
 
 # Results
 /results/
+!/results/.gitkeep
 
 # Mac OS-specific storage files
 .DS_Store
