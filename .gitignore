@@ -2,6 +2,10 @@
 /data/processed/*
 !/data/processed/.gitkeep
 
+# Analyzed data
+/data/analyzed/*
+!/data/analyzed/.gitkeep
+
 # Results
 /results/*
 !/results/.gitkeep
