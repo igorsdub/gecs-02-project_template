@@ -8,19 +8,13 @@ from tqdm import tqdm
 import typer
 
 from src.config import ANALYZED_DIR, PROCESSED_DATA_DIR
+from src.dataset import load_text
 
 app = typer.Typer()
 
 
 
 DELIMITERS = r"[\.\,;:\?\$@\^<>#%`!\*\-=\(\)\[\]\{\}/\\\"']"
-
-def load_text(filename: str) -> List[str]:
-    """
-    Load lines from a plain-text file and return them as a list, with trailing newlines stripped.
-    """
-    with open(filename, encoding="utf-8") as f:
-        return f.read().splitlines()
 
 def save_word_counts(filename: str, df: pd.DataFrame) -> None:
     """
