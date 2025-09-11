@@ -8,7 +8,7 @@ A tutorial on project folder templates using Cookiecutter Data Science package.
 
 ## Project Organization
 
-```
+```text
 ├── LICENSE            <- Open-source license if one is chosen
 ├── README.md          <- The top-level README for developers using this project.
 ├── data
