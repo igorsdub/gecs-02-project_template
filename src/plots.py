@@ -32,7 +32,7 @@ def plot_word_counts(df: pd.DataFrame, limit: int = 10) -> None:
 
 
 @app.command()
-def plot_counts(
+def main(
     input_path: Path = ANALYZED_DIR / "word_counts.csv",
     output_path: Path = RESULT_DIR / "histogram.pdf",
     limit: int = 10,

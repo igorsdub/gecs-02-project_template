@@ -57,7 +57,7 @@ def word_count(input_file: str, output_file: str, min_length: int = 1) -> None:
 
 
 @app.command()
-def count_words(
+def main(
     input_path: Path = PROCESSED_DATA_DIR / "book.txt",
     output_path: Path = ANALYZED_DIR / "word_counts.csv",
     min_length: int = 1,

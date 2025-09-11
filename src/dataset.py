@@ -63,7 +63,7 @@ app = typer.Typer()
 
 
 @app.command()
-def clean_book(
+def main(
     input_path: Path = RAW_DATA_DIR / "book.txt",
     output_path: Path = PROCESSED_DATA_DIR / "book.txt",
 ):
