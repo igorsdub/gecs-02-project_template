@@ -25,9 +25,7 @@ A tutorial on project folder templates using Cookiecutter Data Science package.
 │                         src and configuration for tools like black
 │
 │
-├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-│   └── figures        <- Generated graphics and figures to be used in reporting
-│
+├── results            <- Generated histogram of word counts.
 │
 └── src   <- Source code for use in this project.
     │
