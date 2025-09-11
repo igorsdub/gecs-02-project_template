@@ -41,4 +41,3 @@ A tutorial on project folder templates using Cookiecutter Data Science package.
 ```
 
 --------
-
