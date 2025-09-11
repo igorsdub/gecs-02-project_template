@@ -1,13 +1,12 @@
 from pathlib import Path
 
 from loguru import logger
+import matplotlib.pyplot as plt
+import pandas as pd
 from tqdm import tqdm
 import typer
 
-from src.config import RESULT_DIR, ANALYZED_DIR
-import sys
-import pandas as pd
-import matplotlib.pyplot as plt
+from src.config import ANALYZED_DIR, RESULT_DIR
 
 app = typer.Typer()
 
