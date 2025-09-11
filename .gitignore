@@ -3,8 +3,8 @@
 !/data/processed/.gitkeep
 
 # Analyzed data
-/data/analyzed/*
-!/data/analyzed/.gitkeep
+/analyzed/*
+!/analyzed/.gitkeep
 
 # Results
 /results/*
