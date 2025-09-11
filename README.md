@@ -1,4 +1,4 @@
-# gecs-02-project_template
+# Good Enough Computing in Science (GECS) | Tutorial 2 | Project template
 
 <a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
