@@ -3,7 +3,7 @@
 !/data/processed/.gitkeep
 
 # Results
-/results/
+/results/*
 !/results/.gitkeep
 
 # Mac OS-specific storage files
