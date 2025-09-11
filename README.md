@@ -27,6 +27,14 @@ A tutorial on project folder templates using Cookiecutter Data Science package.
 │
 ├── results            <- Generated histogram of word counts.
 │
+├── scripts            <- Source code for use in this project.
+│   │
+├   ├── clean_book.py           <- Clean raw book text
+│   │
+│   ├── count_words.py          <- Count words in a cleaned book text
+│   │
+│   └── plot_counts.py          <- Plot a word count histogram
+│
 └── src   <- Source code for use in this project.
     │
     ├── __init__.py             <- Makes src a Python module
